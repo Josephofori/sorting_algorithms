@@ -16,7 +16,7 @@ void shell_sort(int *array, size_t size)
     m = (m * 3) + 1;
 
   while ((m = (m - 1) / 3) > 0)
-    _shsort(array, size, n);
+    _shsort(array, size, m);
 }
 /**
  * _shsort - auxiliar function for
